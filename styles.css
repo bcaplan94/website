@@ -1,0 +1,75 @@
+body{
+    min-height: 100%;
+    background-image: red; /* For browsers that do not support gradients */    
+    background-image: -webkit-linear-gradient(top, #b0c4c2 10%, white 90%); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(bottom , #b0c4c2 10%, white 90%); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(bottom, #b0c4c2 10%, white 90%); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient( bottom, #b0c4c2 10%, white 90%); /* Standard syntax (must be last) */
+    background-repeat:no-repeat !important;
+    background-attachment:fixed;
+}
+
+/*All content*/
+.inner_body {
+  margin:auto;
+  width:90%;
+  background-color:#f5f5f5;
+  border-radius: 3px;
+  overflow: none;
+  box-shadow: 1px 1px 3px #000;
+
+}
+
+.banner{
+		color:#f5f5f5;
+        left:0;
+        right:0;
+        top:0;
+        border-top-left-radius:3px;
+        border-top-right-radius:3px;
+        background:#262626;
+        position:relative;
+        height:100px;	
+        overflow: none;
+}
+.banner div{
+  font-size: 40px;
+  padding-top: 0em;
+  padding-bottom: .5em;
+  padding-left: 1em;
+}
+
+.banner span{
+  padding-top:30px;
+}
+.banner a{
+  float:right;
+  font: bold 11px Arial;
+  text-decoration: none;
+  color: #f5f5f5; 
+  border-top-right-radius:3px;
+  padding: 44px 25px 44px 25px;	
+}
+
+.banner a:hover{
+	  background-color: black;
+}
+
+/*footer*/
+.wrapper{
+  min-height:100%;
+  position:relative;
+}
+
+#push {
+        padding-bottom:70px; /* Height of the footer element */
+}
+footer {
+        width:100%;
+        height:70px;
+        position:absolute;
+        bottom:0;
+        left:0;
+        z-index:1;
+        text-align:center;
+}
