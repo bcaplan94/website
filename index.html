@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/photobanner.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/nav.css" type="text/css" media="screen">
+
   </head>
   <body>  
       <div class=inner_body>
         <div class=banner>
            	<div id=name>Brian<em>Caplan</em></div>
-            <a href="index.html">about</a>
-            <a href="index.html">Experience</a>
-            <a href="index.html">Home</a>
-        </div>
-        
-        <div id=boeing_hold><img src="images/boeing.jpg" alt="Me outside of boeing" id="boeing_img"></div>
+            <ul class=nav>
+              <li class="first_level">
+ 					<a href="">Travel</a>
+               </li>
+              <li class=dropdown>
+                <div class=dropbtn>Experience</div>	
+                 
+                 <ul class=dropdown_content>
+                   <li>
+                     <a href="index.html" class=first_item>Github</a>
+                   </li>
+                   <li>
+                     <a href="index.html">Resume</a>
+                   </li>
+                 </ul>
+                 
+              </li>
+              <li class="first_level">
+                 <a href="">Home</a>
+              </li>
+            <ul>
+          </div>
+
+        <div id=boeing_hold><img src="images/boeing.png" alt="Me outside of boeing" id="boeing_img"></div>
         <div class=about_text>
-         <h1> About Me</h1><br>
+         <h1> About Me</h1> <br>
           Hello There! My name is Brian and I am a student attending the University of Colorado. 
           I am working on receiving a degree in computer science with minors in economics and mathematics.
           With the current schedule I will be graduating in May of 2017. After graduation I will continue
@@ -23,15 +44,31 @@
           my family lives and where I try to be when I'm not in colorado or trying to travel the rest of 
           the world.<br><br><br><br>
           <div id=grey_text>    
-            Feel free to browse my web page and check out my experience. If you are interested in learning
-            a little more about me or want to see some cool picture click on the hobbies link or 
-            scroll down and see some picture of the places I've been and things I've done.
-            
-          </div>
+            Feel free to browse my website and check out the experience link for projects and resume. 
+            If you are interested in learning
+            a little more about me or want to see some cool pictures click on the hobbies link or 
+            scroll down and see some of the places I've been and things I've done.<br><br>           
+          </div><!-- grey_text-->
           
-
-
-        </div>
-      </div>
+        <div id="container">
+        	
+        	<h1>Travel & Fun</h1>
+              <!-- Each image is 350px by 233px -->
+    	  <div class="photobanner">
+    	    <img class="first" src="images/image-1.jpg" alt="" />
+    	    <img src="images/image-2.jpg" alt="" />
+    	    <img src="images/image-3.jpg" alt="" />
+    	    <img src="images/image-4.jpg" alt="" />
+    	    <img src="images/image-5.jpg" alt="" />
+    	    <img src="images/image-6.png" alt="" />
+    	    <img src="images/image-1.jpg" alt="" />
+     	    <img src="images/image-2.jpg" alt="" />
+    	    <img src="images/image-3.jpg" alt="" />
+    	    <img src="images/image-4.jpg" alt="" />
+           </div><!-- photobanner-->
+        </div><!-- container-->
+ 		</div><!-- about_text -->
+       
+      </div> <!-- inner_body-->
   </body>
 </html>
