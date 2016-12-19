@@ -17,6 +17,10 @@ body{
   border-radius: 3px;
   box-shadow: 1px 1px 3px #000;
   overflow:auto;
+  position:relative;
+}
+.push{
+margin:100px;
 }
 
 .banner{
@@ -27,7 +31,7 @@ body{
         border-top-left-radius:3px;
         border-top-right-radius:3px;
         background:#262626;
-        position:relative;
+        position:absolute;
         height:100px;	
         overflow: visible;
 }
@@ -71,10 +75,4 @@ margin-bottom:0px;
 #grey_text{
 font-size: .95em;
 color:#42575e;
-}
-
-#span{
-border:dotted;
-margin-left:10;
-padding-left:10;
 }
