@@ -110,3 +110,58 @@ width:90%;
 max-width:900px;
 box-shadow: 1px 1px 3px #000;
 }
+
+/*travel*/
+#travel_location{
+   text-align:center;
+}
+
+/*left side*/
+#travel_left{
+  width:50%;
+  float:left;
+}
+#photo_scroll{
+ width: 550px;
+ height: 367px; 
+ overflow:scroll;
+ text-align:center;
+ padding:8px;
+ margin-bottom:40px;
+}
+
+#travel_right{
+  position:relative;
+  float:right;
+  width:50%;
+  height:367px;	
+  overflow-y:hidden;
+}
+
+#vmap_NA{
+ width: 550px;
+ height: 367px; 
+ 			 -webkit-transition: all 0.2s linear; 
+			 -moz-transition: all 0.2s linear; 
+			 -o-transition: all 0.2s linear;
+
+}
+
+#vmap_US{
+ width: 550px;
+ height: 367px; 
+}
+
+#travel_right a{
+ position: absolute;
+ bottom:0px;
+ left:50%;
+ z-index:50;
+ display:none;
+ cursor:pointer;
+}
+ #travel_right img{
+  width:60px;
+ height:20px;
+ }
+

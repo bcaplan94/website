@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/nav.css" type="text/css" media="screen">
+    <link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.vmap.js"></script>
+    <script type="text/javascript" src="javascript/jquery.vmap.usa.js" charset="utf-8"></script>
+    <script type="text/javascript" src="javascript/jquery.vmap.north-america.js" charset="utf-8"></script>
+    <script type="text/javascript" src="javascript/map_start.js"></script>
+    
+  </head>
+  <body>  
+      <div class=inner_body>
+        
+        <div class=banner>
+           	<div id=name>Brian<em>Caplan</em></div>
+            <ul class=nav>
+              <li class="first_level">
+ 					<a href="">Travel</a>
+               </li>
+              <li class=dropdown>
+                <div class=dropbtn>Experience</div>	
+                 
+                 <ul class=dropdown_content>
+                   <li>
+                     <a href="https://www.github.com/bcaplan94" class=first_item>Github</a>
+                   </li>
+                   <li>
+                     <a href="resume.html">Resume</a>
+                   </li>
+                 </ul>
+                 
+              </li>
+              <li class="first_level">
+                 <a href="index.html">Home</a>
+              </li>
+            <ul>
+          </div>
+	      <div class=push></div>
+
+	      	        <h1 id=travel_location>Choose a location</h1>
+
+	      <div id=travel_left> 
+	        <div id=photo_scroll>
+	        	<img src="images/image-4.jpg" alt="" title="Palmer lake, Colorado"/>
+    	    	<img src="images/image-5.jpg" alt="" title="Naylor lake, Colorado" />
+    	    	<img src="images/image-6.png" alt="" title=" Silver Springs, Florida" />
+    	    	<img src="images/image-1.jpg" alt="" title="Lake Isabel, Colorado"/>
+     	    	<img src="images/image-2.jpg" alt=""  title="Cancun, Mexico" />
+    	    	<img src="images/image-3.jpg" alt="" title="Chichén Itza, Mexico"/>
+    	    	<img src="images/image-4.jpg" alt="" title="Palmer lake, Colorado"/>
+    	    </div>
+	      </div><!-- travel_left-->
+
+          <div id=travel_right>
+            
+            <div id="vmap_NA"></div>            
+            <div id="vmap_US">
+                      		<a onclick="bringDown()" id=bring_down><img src="images/arrow.png" /></a>
+
+             </div>
+
+		  </div><!-- travel_right-->
+       
+      </div> <!-- inner_body-->
+  </body>
+</html>
